@@ -110,8 +110,17 @@ function SearchSpotify() {
               <Card.Body>
                 <Card.Title>{albums?.name}</Card.Title>
               </Card.Body>
+              <Card.Img src={albums?.album?.images[1]?.url} />
+              <Card.Body>
+                <Card.Title>{albums?.name}</Card.Title>
+              </Card.Body>
+              <Card.Img src={albums?.album?.images[2]?.url} />
+              <Card.Body>
+                <Card.Title>{albums?.name}</Card.Title>
+              </Card.Body>
             </Card>
-          )}
+            )
+            }
 
 
         </Row>
